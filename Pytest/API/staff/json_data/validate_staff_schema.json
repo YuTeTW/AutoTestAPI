@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {"type" : "number"},
+    "department_id": {"type" : "number"},
+    "group_id": {"type" : "number"},
+    "serial_number": {"type" : "string"},
+    "info": {
+      "name": {"type" : "string"},
+      "email": {"type" : "string"},
+      "card_number": {"type" : "number"},
+      "national_id_number": {"type" : "string"},
+      "gender": {"type" : "number"},
+      "telephone_number": {"type" : "string"},
+      "birthday": {"type" : "string"}
+    },
+    "status": {"type" : "number"},
+    "start_date": {"type" : "string"},
+    "created_at": {"type" : "string"},
+    "updated_at": {"type" : "string"}
+  }
+}

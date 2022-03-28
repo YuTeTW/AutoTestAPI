@@ -1,0 +1,15 @@
+{
+  "department_id": 1,
+  "serial_number": 10000000000,
+  "info": {
+    "name": "Test_staff",
+    "card_number": "254383204",
+    "email": "test_staff@fastwise.net",
+    "gender": 2,
+    "national_id_number": "string",
+    "birthday": "1993-01-01T00:00",
+    "telephone_number": "0987654321"
+  },
+  "start_date": "2002-12-25T00:00",
+  "status": "1"
+}

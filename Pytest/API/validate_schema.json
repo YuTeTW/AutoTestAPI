@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {"User": {"type": "object",
+    "properties": {
+        "id": {"type" : "number"},
+        "email": {"type" : "string"},
+        "name": {"type" : "string"},
+        "info": {"type" : "object",
+                 "properties":{
+                     "address": {"type" : "string"},
+                     "country": {"type" : "string"},
+                     "telephone_number": {"type" : "string"},
+                     "companyScale": {"type" : "string"},
+                     "usage": {"type" : "string"},
+                     "industry": {"type" : "string"},
+                     "email_alert": {"type" : "boolean"},
+                     "language": {"type" : "number"}
+                 }
+        },
+        "created_at": {"type" : "string"},
+        "updated_at": {"type" : "string"}
+    }
+}, "Status": {"type" : "boolean"},
+      "access_token": {"type" : "string"},
+      "refresh_token": {"type" : "string"},
+      "token_type": {"type" : "string"}
+    }
+}
